@@ -1,0 +1,2 @@
+rendre maintenable l'ajout des filtres selon la ville grâce à une fonction
+faire en sorte d'avoir la mapnav dans le fichier principal

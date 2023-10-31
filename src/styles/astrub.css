@@ -1,0 +1,53 @@
+#astrub-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.astrub {
+    height: 100vh;
+}
+
+.other-astrub {
+    position: absolute;
+    opacity: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#astrub-filter-ul > li {
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+#astrub-filter-ul > li:hover {
+    color: green;
+}
+
+#astrub-filter-ul {
+    padding: 0;
+}
+
+.selected {
+    color: green;
+    opacity: 1;
+}
+
+.filter-nav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 20%;
+    /* display: none; */
+    right: 0;
+    height: 100vh;
+    top: 0;
+}
+
+.transform-component-module_content__FBWxo {
+    width: 80vw!important;
+    margin-top: 4vw!important;
+}

@@ -1,0 +1,12 @@
+body, html {
+  margin: 0;
+  overflow: hidden;
+  background-image: url("../src/assets/LOGO.blancpng.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(90deg, rgba(209, 221, 221, 1) 0%, rgba(207, 229, 225, 1) 100%); */
+}
+
+#app {
+  display: flex;
+}

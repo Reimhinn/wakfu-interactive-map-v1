@@ -1,0 +1,29 @@
+#map-nav {
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    height: 5vw;
+    width: 100%;
+    position: absolute;
+}
+
+#map-nav-list {
+    display: flex;
+    position: relative;
+    padding-left: 2vw;
+}
+
+#map-nav-list > li {
+    margin-right: 7vw;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+#map-nav-list > li:hover {
+    color: green;
+}
+
+#map-nav-list > li .selected {
+    color: green;
+}
